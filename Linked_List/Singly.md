@@ -103,3 +103,5 @@ console.log(demoLinkedList.delete(2))
 console.log(demoLinkedList.getSize())
 
 ```
+
+Looking for [Doubly Linked List](https://github.com/Sonukr/interview/blob/master/Linked_List/Doubly.md) ?
