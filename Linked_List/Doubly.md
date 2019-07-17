@@ -11,7 +11,7 @@ function Node(value) {
   this.prev = undefined;
 }
 
-function DLinkedList() {
+function DoublyLinkedList() {
   var head = undefined;
   var tail = undefined;
   var length = 0;
@@ -102,11 +102,11 @@ function DLinkedList() {
 
 // Use
 
-var demoLinkedList = new DLinkedList();
-console.log(demoLinkedList.insert(2))
-console.log(demoLinkedList.search(2))
-console.log(demoLinkedList.getSize())
-console.log(demoLinkedList.delete(2))
-console.log(demoLinkedList.getSize())
+var LinkedList = new DoublyLinkedList();
+console.log(LinkedList.insert(2))
+console.log(LinkedList.search(2))
+console.log(LinkedList.getSize())
+console.log(LinkedList.delete(2))
+console.log(LinkedList.getSize())
 
 ```
